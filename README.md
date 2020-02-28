@@ -13,7 +13,7 @@ java -jar storage-1.0.jar test.xml
 ```
 где test.xml - путь к файлу с описанием взаименого положения предметов(Item) и ящиков(Box).
 
-REST-контроллер расположен по адресу: http://127.0.0.1/rest/storage/getItemsInBox
+REST-контроллер расположен по адресу: http://127.0.0.1:8080/rest/storage/getItemsInBox
 
 REST-контроллер отвечает на тестовые запросы подобно следующему:
 ```json
